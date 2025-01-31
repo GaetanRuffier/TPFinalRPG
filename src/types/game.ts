@@ -2,6 +2,7 @@ export interface Monster {
     index: string;
     name: string;
     hit_points: number;
+    strenght: number;
     armor_class: number;
     challenge_rating: number;
   }
